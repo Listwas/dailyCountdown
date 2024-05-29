@@ -1,0 +1,23 @@
+.mainCont {
+  width: 375px;
+  height: 200px;
+  background-color: #000c66;
+  color: #7ec8e3;
+  font-size: 1.7rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.columnCont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .mainCont {
+    width: 550px;
+  }
+}

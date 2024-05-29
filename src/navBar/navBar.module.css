@@ -1,0 +1,16 @@
+.mainCont {
+  height: 306px;
+}
+
+.navButton {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.navButton button {
+  padding: 25px;
+  border: none;
+  border-radius: 0 0 0 8px;
+  background-color: #000c66;
+}

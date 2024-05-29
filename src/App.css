@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  background-color: #050a30;
+}
+
+.containers {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
