@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className={s.mainCont}>
       <div className={s.navButton}>
-        <div style={{ width: "50px" }}></div>
+        <div style={{ width: "60px" }}></div>
         <div className={s.time}>
           <CurrentDate />
         </div>
