@@ -4,8 +4,9 @@
 
 .navButton {
   display: flex;
-  justify-content: end;
-  align-items: end;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .navButton button {
@@ -13,4 +14,8 @@
   border: none;
   border-radius: 0 0 0 8px;
   background-color: #000c66;
+}
+
+.time {
+  font-size: 1.4rem;
 }
