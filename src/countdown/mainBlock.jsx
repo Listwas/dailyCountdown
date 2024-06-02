@@ -28,7 +28,7 @@ function MainBlock() {
     };
   }, []);
 
-  const dayNow = new Date();
+  const dayNow = time;
   const hours = 24 - dayNow.getHours();
   const minutes = 59 - dayNow.getMinutes();
   const seconds = 59 - dayNow.getSeconds();
