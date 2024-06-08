@@ -1,6 +1,7 @@
 import "./App.css";
 import MainBlock from "./countdown/mainBlock";
 import NavBar from "./navBar/navBar";
+
 function App() {
   return (
     <>

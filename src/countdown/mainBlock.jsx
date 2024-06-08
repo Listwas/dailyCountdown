@@ -1,10 +1,12 @@
 import s from "./mainBlock.module.css";
 import React, { useState, useEffect } from "react";
 
+// formating displayed time
 function formatTime(unit) {
   return unit < 10 ? `0${unit}` : unit;
 }
 
+// displaying time
 function TimeDisplay({ hours, minutes, seconds }) {
   return (
     <div className={s.columnCont}>
@@ -16,6 +18,7 @@ function TimeDisplay({ hours, minutes, seconds }) {
   );
 }
 
+// setting interval and end of day time
 function MainBlock() {
   const [time, setTime] = useState(new Date());
 
